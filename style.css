@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head_menu {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 5px;
+    position: sticky;
+    box-shadow: 0 5px 20px -7px rgb(158, 158, 158);
+    background-color: rgb(230, 230, 230);
+    /* z-index: -2; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: rgb(243, 125, 28);
+    transition: 0.3s;
+}
+
+.item2 img {
+    width: 60px;
+    padding: 5px;
+}
+
+.list li a img {
+    width: 32px;
+}
+
+.item1 {
+    grid-column: 1/3;
+    margin-right: 5vw;
+}
+
+h1 {
+    letter-spacing: 4.5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+h2{
+    font-size: .7rem;
+    font-weight: 200;
+    margin-left: 10px;
+}
+.item2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 {
+    grid-column: 5/6;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.main_body{
+    height: 93vh;
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+}
+
+.col2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 60vw;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(243, 125, 28) 10%, rgb(172, 49, 255) 90%);
+}
+
+.arti{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(158, 255, 174),rgb(255, 233, 159));
+    text-align: justify;
+}
+
+.arti21{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.arti1{
+    grid-column: 1/3;
+}
+.arti4{
+    grid-column: 1/3;
+}
+
+.arti h1{
+    margin: 0;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.arti p{
+    font-size: 1rem;
+    font-weight: 200;
+}
